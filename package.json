@@ -81,5 +81,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "react-p5-wrapper": "^2.4.1"
   }
 }
