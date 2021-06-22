@@ -2,6 +2,7 @@
   "version": "0.0.0-development",
   "license": "MIT",
   "main": "dist/index.js",
+  "description": "You can create bubbles particles with this package.",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -10,6 +11,12 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "React",
+    "P5js",
+    "Particles",
+    "Bubbles"
+  ],
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
