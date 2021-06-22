@@ -13,7 +13,6 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
-    "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
     "acp": "git add . && npm run commit && git push",
     "commit": "git-cz",
