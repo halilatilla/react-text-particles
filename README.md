@@ -1,6 +1,6 @@
 # React Text Particles
 
-You can create bubble particles
+You can create bubbles particles with this package.
 
 ## Installation
 
