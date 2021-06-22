@@ -10,7 +10,9 @@ Install react-text-particles with npm
   npm install react-text-particles
 ```
 
-## Usage/React
+## Usage
+
+### React
 
 ```js
 import TextParticles from 'react-text-particles';
@@ -20,7 +22,7 @@ function App() {
 }
 ```
 
-## Usage/Nextjs
+### Nextjs
 
 ```js
 const TextParticles = dynamic(() => import('react-text-particles'), {
