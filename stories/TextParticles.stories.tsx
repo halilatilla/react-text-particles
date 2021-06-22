@@ -1,6 +1,6 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { TextParticles, TextParticlesProps } from '../src';
+import TextParticles, { TextParticlesProps } from '../src';
 
 const meta: Meta = {
   title: 'TextParticles',

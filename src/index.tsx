@@ -23,7 +23,7 @@ export interface TextParticlesProps {
   colorSet?: string[]
 };
 
-export const TextParticles: FC<TextParticlesProps>=({
+const TextParticles: FC<TextParticlesProps>=({
   text,
   textSize,
   flow,
@@ -87,3 +87,5 @@ TextParticles.defaultProps = {
     '#FF5722'
   ]
 }
+
+export default TextParticles;
