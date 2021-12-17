@@ -2,6 +2,8 @@
 
 You can create bubbles particles with this package.
 
+![5y7y9b](https://user-images.githubusercontent.com/27916419/146520664-d1cc323a-3a5b-444b-b402-18390309e9dc.gif)
+
 ## Installation
 
 Install react-text-particles with npm
