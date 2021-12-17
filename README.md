@@ -1,8 +1,10 @@
 # React Text Particles
 
-You can create bubbles particles with this package.
+Crate fancy text particles 😎
 
 ![5y7y9b](https://user-images.githubusercontent.com/27916419/146520664-d1cc323a-3a5b-444b-b402-18390309e9dc.gif)
+
+<br>
 
 ## Installation
 
@@ -12,7 +14,11 @@ Install react-text-particles with npm
   npm install react-text-particles
 ```
 
+<br>
+
 ## Usage
+
+<br>
 
 ### React
 
@@ -36,19 +42,55 @@ function App() {
 }
 ```
 
+<br>
+
 ## Props List
 
 | Name       | Type   | Default                                                       |
 | ---------- | ------ | ------------------------------------------------------------- |
-| text       | String | H.A                                                           |
+| text       | String | Halil Atilla                                                  |
 | textSize   | Number | 160                                                           |
 | flow       | Number | 0.3                                                           |
 | flowOffset | Number | 0                                                             |
 | topSpeed   | Number | 100                                                           |
 | lifeSpan   | Number | 2000                                                          |
 | gravity    | Object | { direction: 90, force: 0 }                                   |
-| canvas     | Object | { width: 300, height: 300, bg: 'white' }                      |
+| canvas     | Object | { width: 880, height: 300, bg: '#161c1e' }                    |
 | colorSet   | Array  | colorSet: ['#f44336','#e91e63','#9c27b0','#673ab7','#3f51b5'] |
+
+<br>
+
+## Development
+
+Pull requests are encouraged and always welcome.
+[Pick an issue](https://github.com/halilatilla/react-text-particles/issues)
+and help us out!
+
+To install and work on `React Text Particles` locally:
+
+```bash
+git clone https://github.com/halilatilla/react-text-particles.git
+cd react-text-particles
+npm install
+```
+
+<br>
+
+`http://localhost:3000/`
+
+```bash
+yarn start or npm start
+```
+
+<br>
+
+`http://localhost:6006/`
+
+```bash
+yarn storybook or npm start storybook
+```
+
+<br>
 
 ## Authors
 
