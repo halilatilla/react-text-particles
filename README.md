@@ -49,7 +49,6 @@ function App() {
 | Name       | Type   | Default                                                       |
 | ---------- | ------ | ------------------------------------------------------------- |
 | text       | String | Halil Atilla                                                  |
-| textSize   | Number | 160                                                           |
 | flow       | Number | 0.3                                                           |
 | flowOffset | Number | 0                                                             |
 | topSpeed   | Number | 100                                                           |
