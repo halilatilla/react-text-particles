@@ -1,6 +1,11 @@
+![npm](https://img.shields.io/npm/v/react-text-particles?label=npm) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/halilatilla/react-text-particles?label=code%20size)
+[![GitHub license](https://img.shields.io/github/license/halilatilla/react-text-particles?label=license)](https://github.com/halilatilla/react-text-particles/blob/main/LICENSE)
+
 # React Text Particles
 
-<q> <b> Create fancy text particles limited only by your imagination </b></q> 😎
+### **Create fancy text particles limited only by your imagination** 😎
+
+<br>
 
 ![5y7y9b](https://user-images.githubusercontent.com/27916419/146520664-d1cc323a-3a5b-444b-b402-18390309e9dc.gif)
 
