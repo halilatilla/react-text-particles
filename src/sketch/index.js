@@ -93,10 +93,10 @@ export default function sketch(p5) {
   function init() {
     p5.clear();
     p5.fill(0);
+    p5.textSize(config?.textSize);
+    p5.text(config?.text, p5.width / 2, p5.height / 2);
     p5.textAlign(p5.CENTER, p5.CENTER);
     p5.textStyle(p5.BOLD);
-    p5.textSize(p5.width / 5);
-    p5.text(config?.text, p5.width / 2, p5.height / 2);
     p5.noFill();
     particles = [];
     let step = p5.floor(
