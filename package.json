@@ -89,6 +89,6 @@
     }
   },
   "dependencies": {
-    "react-p5-wrapper": "^2.4.1"
+    "react-p5-wrapper": "^3.0.2"
   }
 }

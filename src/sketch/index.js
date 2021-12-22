@@ -11,7 +11,16 @@ export default function sketch(p5) {
   let config;
   let colorSet = [];
 
-  p5.myCustomRedrawAccordingToNewPropsHandler = props => {
+  p5.setup = () => {
+    p5.createCanvas(config?.canvas?.width, config?.canvas?.height);
+    setGravity();
+    init();
+    p5.frameRate(60);
+    p5.noStroke();
+    p5.colorMode(p5.HSL, 100);
+  };
+
+  p5.updateWithProps = props => {
     if (props.config) config = props.config;
     if (props.colorSet) colorSet = props.colorSet;
     p5.setup();
@@ -151,13 +160,4 @@ export default function sketch(p5) {
       config?.gravity.force
     );
   }
-
-  p5.setup = () => {
-    p5.createCanvas(config?.canvas?.width, config?.canvas?.height);
-    setGravity();
-    init();
-    p5.frameRate(60);
-    p5.noStroke();
-    p5.colorMode(p5.HSL, 100);
-  };
 }

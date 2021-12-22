@@ -1,5 +1,5 @@
 import React, { FC, useState } from 'react';
-import P5Wrapper from 'react-p5-wrapper';
+import { ReactP5Wrapper } from "react-p5-wrapper";
 
 import sketch from './sketch/index.js';
 
@@ -47,7 +47,7 @@ export const TextParticles: FC<TextParticlesProps> =
     });
 
     return (
-      <P5Wrapper
+      <ReactP5Wrapper
         sketch={state.sketch}
         config={state.config}
         colorSet={state.colorSet}
