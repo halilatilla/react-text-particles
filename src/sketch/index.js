@@ -114,7 +114,7 @@ export default function sketch(p5) {
         }
       }
     }
-    field = {};
+    field = [];
     p5.clear();
     step = fieldStep = p5.floor(
       p5.max(p5.width, p5.height) / p5.min(20, p5.min(p5.width, p5.height))

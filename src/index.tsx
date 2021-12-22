@@ -25,14 +25,14 @@ export interface TextParticlesProps {
 export const TextParticles: FC<TextParticlesProps> = 
   ({
     text = 'Halil Atilla',
-    textSize=160,
+    textSize= 160,
     flow = 0.3,
     topSpeed = 100,
     lifeSpan = 2000,
     flowOffset = 0,
     gravity = { direction: 90, force: 0 },
     canvas = { width: 880, height: 300, bg: '#161c1e' },
-    colorSet = ['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5'],
+    colorSet = ['#fbbf24', '#e91e63', '#60a5fa', '#673ab7', '#65a30d'],
   }) => {
     const [state] = useState({
       colorSet,

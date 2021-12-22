@@ -59,7 +59,7 @@ function App() {
 | lifeSpan   | Number | 2000                                                          |
 | gravity    | Object | { direction: 90, force: 0 }                                   |
 | canvas     | Object | { width: 880, height: 300, bg: '#161c1e' }                    |
-| colorSet   | Array  | colorSet: ['#f44336','#e91e63','#9c27b0','#673ab7','#3f51b5'] |
+| colorSet   | Array  | colorSet: ['#fbbf24','#e91e63','#60a5fa','#673ab7','#65a30d'] |
 
 <br>
 
