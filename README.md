@@ -1,6 +1,6 @@
 # React Text Particles
 
-Create fancy text particles 😎
+<q> <b> Create fancy text particles limited only by your imagination </b></q> 😎
 
 ![5y7y9b](https://user-images.githubusercontent.com/27916419/146520664-d1cc323a-3a5b-444b-b402-18390309e9dc.gif)
 
@@ -17,8 +17,6 @@ Install react-text-particles with npm
 <br>
 
 ## Usage
-
-<br>
 
 ### React
 
