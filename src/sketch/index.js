@@ -3,6 +3,8 @@
 /* eslint-disable no-underscore-dangle */
 /* eslint-disable no-param-reassign */
 
+import Particle from './particle';
+
 export default function sketch(p5) {
   let particles = [];
   let field = [];
@@ -26,70 +28,6 @@ export default function sketch(p5) {
     p5.setup();
   };
 
-  class Particle {
-    constructor(x, y, size, index) {
-      this.baseSize = size;
-      this.index = index || 0;
-      this.spawn = p5.createVector(x, y);
-      this.init();
-    }
-
-    init() {
-      this.size = this.baseSize * p5.random(0.5, 1.5);
-      this.start = p5.millis();
-      this.position = this.spawn.copy();
-      this.velocity = p5.createVector(0, 0);
-      this.acceleration = p5.createVector(0, 0);
-      this.duration = config?.lifeSpan * p5.random(0.2, 1.2);
-      this.drag = p5.random(0.9, 1);
-      this.addForce(
-        p5.constructor.Vector.fromAngle(p5.random(p5.TWO_PI), p5.random(10))
-      );
-      this.color = p5.random(colorSet);
-    }
-
-    display() {
-      let s = 1;
-      if (p5.millis() - this.start < this.duration * 0.1) {
-        s = p5.map(p5.millis() - this.start, 0, this.duration * 0.1, 0, 1);
-      } else if (p5.millis() - this.start > this.duration * 0.5) {
-        s = p5.map(
-          p5.millis() - this.start,
-          this.duration * 0.5,
-          this.duration,
-          1,
-          0
-        );
-      }
-      p5.fill(this.color);
-      p5.circle(
-        this.position.x,
-        this.position.y,
-        this.size *
-          s *
-          p5.map(this.velocity.mag(), 0, config?.topSpeed, 0.5, 1.2)
-      );
-    }
-
-    update() {
-      this.velocity.add(this.acceleration);
-      this.velocity.limit(config?.topSpeed);
-      this.velocity.mult(this.drag);
-      this.position.add(this.velocity.copy().mult(1 / p5._targetFrameRate));
-      this.acceleration.mult(0);
-      if (
-        this.position.y > p5.height ||
-        p5.millis() - this.start > this.duration
-      ) {
-        this.init();
-      }
-    }
-
-    addForce(vector) {
-      this.acceleration.add(vector);
-    }
-  }
-
   function init() {
     p5.clear();
     p5.fill(0);
@@ -109,7 +47,9 @@ export default function sketch(p5) {
         const targetY = y + step / 2;
         const alpha = p5.get(targetX, targetY)[3];
         if (alpha > 0.5) {
-          particles.push(new Particle(targetX, targetY, step * 3, i));
+          particles.push(
+            new Particle(p5, config, colorSet, targetX, targetY, step * 3, i)
+          );
           i++;
         }
       }
