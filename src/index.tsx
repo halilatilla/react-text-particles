@@ -49,8 +49,6 @@ export const TextParticles: FC<TextParticlesProps> =
       sketch,
     });
 
-    if (typeof window === undefined)  return<></>
-
     return (
       <ReactP5Wrapper
         sketch={state.sketch}

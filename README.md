@@ -36,9 +36,12 @@ function App() {
 ### Nextjs
 
 ```js
-const TextParticles = dynamic(() => import('react-text-particles'), {
-  ssr: false,
-});
+const TextParticles = dynamic(
+  () => import('react-text-particles').then(mod => mod.TextParticles),
+  {
+    ssr: false,
+  }
+);
 
 function App() {
   return <TextParticles />;
