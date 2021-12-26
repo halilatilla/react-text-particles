@@ -26,7 +26,7 @@ Install react-text-particles with npm
 ### React
 
 ```js
-import TextParticles from 'react-text-particles';
+import { TextParticles } from 'react-text-particles';
 
 function App() {
   return <TextParticles />;
