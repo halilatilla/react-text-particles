@@ -1,6 +1,7 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import {TextParticles, TextParticlesProps } from '../src';
+import { TextParticles } from '../src';
+import { TextParticlesProps } from '../src/types';
 
 const meta: Meta = {
   title: 'TextParticles',
@@ -12,9 +13,7 @@ const meta: Meta = {
 
 export default meta;
 
-const Template: Story<TextParticlesProps> = (args) => (
-  <TextParticles {...args} />
-);
+const Template: Story<TextParticlesProps> = args => <TextParticles {...args} />;
 
 export const Default = Template.bind({});
 
