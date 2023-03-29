@@ -1,9 +1,10 @@
 ![npm](https://img.shields.io/npm/v/react-text-particles?label=npm) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/halilatilla/react-text-particles?label=code%20size)
 [![GitHub license](https://img.shields.io/github/license/halilatilla/react-text-particles?label=license)](https://github.com/halilatilla/react-text-particles/blob/main/LICENSE)
 
-# React Text Particles
+# 🎉 React Text Particles
 
-### **Create fancy text particles limited only by your imagination** 😎
+### **Create visually stunning text particles with React Text Particles and let your imagination run wild! 😎**
+
 
 <br>
 
@@ -11,21 +12,19 @@
 
 <br>
 
-## Installation
+## **📦 Installation**
 
-Install react-text-particles with npm
+Install react-text-particles using npm:
 
-```bash
-  npm install react-text-particles
+```
+npm install react-text-particles
 ```
 
-<br>
+## **🚀 Usage**
 
-## Usage
+### **React**
 
-### React
-
-```js
+```
 import { TextParticles } from 'react-text-particles';
 
 function App() {
@@ -33,9 +32,11 @@ function App() {
 }
 ```
 
-### Nextjs
+### **Next.js**
 
-```js
+```
+import dynamic from 'next/dynamic';
+
 const TextParticles = dynamic(
   () => import('react-text-particles').then(mod => mod.TextParticles),
   {
@@ -50,58 +51,62 @@ function App() {
 
 <br>
 
-## Props List
+## **⚙️ Props**
 
-| Name       | Type   | Default                                                       |
-| ---------- | ------ | ------------------------------------------------------------- |
-| text       | String | Halil Atilla                                                  |
-| textSize   | Number | 160                                                           |
-| flow       | Number | 0.3                                                           |
-| flowOffset | Number | 0                                                             |
-| topSpeed   | Number | 100                                                           |
-| lifeSpan   | Number | 2000                                                          |
-| gravity    | Object | { direction: 90, force: 0 }                                   |
-| canvas     | Object | { width: 880, height: 300, bg: '#161c1e' }                    |
-| colorSet   | Array  | colorSet: ['#fbbf24','#e91e63','#60a5fa','#673ab7','#65a30d'] |
+| Name | Type | Default | Description |
+| --- | --- | --- | --- |
+| text | String | Halil Atilla | Text to display as particles |
+| textSize | Number | 160 | Font size of text particles |
+| flow | Number | 0.3 | Particle flow speed |
+| flowOffset | Number | 0 | Particle flow offset |
+| topSpeed | Number | 100 | Maximum particle speed |
+| lifeSpan | Number | 2000 | Particle lifespan |
+| gravity | Object | { direction: 90, force: 0 } | Gravity settings |
+| canvas | Object | { width: 880, height: 300, bg: '#161c1e' } | Canvas settings |
+| colorSet | Array | ['#fbbf24','#e91e63','#60a5fa','#673ab7','#65a30d'] | Particle colors |
 
 <br>
 
-## Development
+## **🛠️ Development**
 
-Pull requests are encouraged and always welcome.
-[Pick an issue](https://github.com/halilatilla/react-text-particles/issues)
-and help us out!
+Contributions are welcome and appreciated! Feel free to submit pull requests and help us improve the project.
 
-To install and work on `React Text Particles` locally:
+To set up React Text Particles locally:
 
-```bash
+```
 git clone https://github.com/halilatilla/react-text-particles.git
 cd react-text-particles
 npm install
 ```
 
-<br>
+To start the development server:
 
-`http://localhost:3000/`
-
-```bash
-yarn start or npm start
+```
+yarn start
+// or
+npm start
 ```
 
-<br>
+Visit **[http://localhost:3000/](http://localhost:3000/)**
 
-`http://localhost:6006/`
+To start Storybook:
 
-```bash
-yarn storybook or npm start storybook
+```
+yarn storybook
+// or
+npm start storybook
 ```
 
+Visit **[http://localhost:6006/](http://localhost:6006/)**
+
 <br>
 
-## Authors
+## **👤 Authors**
 
-- [@halilatilla](https://www.github.com/halilatilla)
+- **[@halilatilla](https://github.com/halilatilla)**
 
-## License
+<br>
 
-[MIT](https://choosealicense.com/licenses/mit/)
+## **📄 License**
+
+This project is licensed under the MIT License - see the **[LICENSE](https://github.com/halilatilla/react-text-particles/blob/main/LICENSE)** file for details.
