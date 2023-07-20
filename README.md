@@ -109,4 +109,4 @@ Visit **[http://localhost:6006/](http://localhost:6006/)**
 
 ## **📄 License**
 
-This project is licensed under the MIT License - see the **[LICENSE](https://github.com/halilatilla/react-text-particles/blob/main/LICENSE)** file for details.
+This project is licensed under the MIT License - see the **[LICENSE](https://github.com/halilatilla/react-text-particles/blob/main/LICENSE)** file for details
