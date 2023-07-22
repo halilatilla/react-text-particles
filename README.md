@@ -5,7 +5,6 @@
 
 ### **Create visually stunning text particles with React Text Particles and let your imagination run wild! 😎**
 
-
 <br>
 
 ![ysg9teskojiduxxb0u83rhe2](https://user-images.githubusercontent.com/27916419/147081699-e10f8eef-52a5-4ac3-a68f-23ec109ae38b.gif)
@@ -53,17 +52,17 @@ function App() {
 
 ## **⚙️ Props**
 
-| Name | Type | Default | Description |
-| --- | --- | --- | --- |
-| text | String | Halil Atilla | Text to display as particles |
-| textSize | Number | 160 | Font size of text particles |
-| flow | Number | 0.3 | Particle flow speed |
-| flowOffset | Number | 0 | Particle flow offset |
-| topSpeed | Number | 100 | Maximum particle speed |
-| lifeSpan | Number | 2000 | Particle lifespan |
-| gravity | Object | { direction: 90, force: 0 } | Gravity settings |
-| canvas | Object | { width: 880, height: 300, bg: '#161c1e' } | Canvas settings |
-| colorSet | Array | ['#fbbf24','#e91e63','#60a5fa','#673ab7','#65a30d'] | Particle colors |
+| Name       | Type   | Default                                             | Description                  |
+| ---------- | ------ | --------------------------------------------------- | ---------------------------- |
+| text       | String | Halil Atilla                                        | Text to display as particles |
+| textSize   | Number | 160                                                 | Font size of text particles  |
+| flow       | Number | 0.3                                                 | Particle flow speed          |
+| flowOffset | Number | 0                                                   | Particle flow offset         |
+| topSpeed   | Number | 100                                                 | Maximum particle speed       |
+| lifeSpan   | Number | 2000                                                | Particle lifespan            |
+| gravity    | Object | { direction: 90, force: 0 }                         | Gravity settings             |
+| canvas     | Object | { width: 880, height: 300, bg: '#161c1e' }          | Canvas settings              |
+| colorSet   | Array  | ['#fbbf24','#e91e63','#60a5fa','#673ab7','#65a30d'] | Particle colors              |
 
 <br>
 
@@ -109,4 +108,4 @@ Visit **[http://localhost:6006/](http://localhost:6006/)**
 
 ## **📄 License**
 
-This project is licensed under the MIT License - see the **[LICENSE](https://github.com/halilatilla/react-text-particles/blob/main/LICENSE)** file for details
+This project is licensed under the MIT License - see the **[LICENSE](https://github.com/halilatilla/react-text-particles/blob/main/LICENSE)** file for details.
