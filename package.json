@@ -2,7 +2,7 @@
   "version": "0.0.0-development",
   "license": "MIT",
   "main": "dist/index.js",
-  "description": "You can create bubbles particles with this package.",
+  "description": "Create visually stunning text particles with React Text Particles and let your imagination run wild!",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
