@@ -5,8 +5,7 @@
   "description": "You can create bubbles particles with this package.",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "engines": {
     "node": ">=10"
