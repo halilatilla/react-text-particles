@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Publish package to NPM
 
 on:
   push:
@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      # Setup .npmrc file to publish to GitHub Packages
+      - uses: actions/setup-node@v3
         with:
           node-version: '16.x'
       - run: npm install
